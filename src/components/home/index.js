@@ -5,7 +5,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import { Link } from "react-router-dom";
 
-function HomeBarApp() {
+export default function HomeBarApp() {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
 
@@ -56,5 +56,3 @@ function HomeBarApp() {
     </AppBar>
   );
 }
-
-export default HomeBarApp;
