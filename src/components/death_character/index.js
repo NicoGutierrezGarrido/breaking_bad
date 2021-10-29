@@ -2,16 +2,12 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import Character from "./Character";
 
-function DeathCharacter() {
+export default function DeathCharacter() {
   return (
-    <div>
-      <Grid container spacing={10} justify="center" alignItems="center">
-        <Grid item xs={1} md={3}>
-          <Character />
-        </Grid>
+    <Grid container spacing={10} justify="center" alignItems="center">
+      <Grid item xs={1} md={3}>
+        <Character />
       </Grid>
-    </div>
+    </Grid>
   );
 }
-
-export default DeathCharacter;
