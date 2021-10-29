@@ -10,7 +10,7 @@ import DeathCharacter from './components/death_character';
 import HomeBarApp from './components/home';
 
 
-function App() {
+export default function App() {
   return (
     <Router>
       <HomeBarApp/>
@@ -25,5 +25,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
